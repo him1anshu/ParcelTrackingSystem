@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcel_Tracking_System", "Parcel_Tracking_System\Parcel_Tracking_System.csproj", "{48418E15-7F07-4A9A-B7D7-E586EAD81AC2}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PTS_UI", "..\..\WebSites\PTS_UI\", "{3B6FBAED-274B-4DC2-9FC6-3332BEE51767}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{d2e6e98b-d866-4016-b037-9946ed9c692a}|PTS_Business_Entity.dll;{8703800d-cb40-43bd-8a3c-0b39e17bf916}|PTS_Business_Access_Layer.dll;{718CDF08-E262-4E46-B140-B1F2F42A3EFD}|PTS_Data_Access_Layer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/PTS_UI"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\PTS_UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PTS_UI\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PTS_UI"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\PTS_UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PTS_UI\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49702"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTS_Business_Entity", "PTS_Business_Entity\PTS_Business_Entity.csproj", "{D2E6E98B-D866-4016-B037-9946ED9C692A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTS_Business_Access_Layer", "PTS_Business_Access_Layer\PTS_Business_Access_Layer.csproj", "{8703800D-CB40-43BD-8A3C-0B39E17BF916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTS_Data_Access_Layer", "PTS_Data_Access_Layer\PTS_Data_Access_Layer.csproj", "{718CDF08-E262-4E46-B140-B1F2F42A3EFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTS_Common_Functionality", "PTS_Common_Functionality\PTS_Common_Functionality.csproj", "{FEFD9730-DAF4-4727-9B0D-3A8289E8D380}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48418E15-7F07-4A9A-B7D7-E586EAD81AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48418E15-7F07-4A9A-B7D7-E586EAD81AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48418E15-7F07-4A9A-B7D7-E586EAD81AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48418E15-7F07-4A9A-B7D7-E586EAD81AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6FBAED-274B-4DC2-9FC6-3332BEE51767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6FBAED-274B-4DC2-9FC6-3332BEE51767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6FBAED-274B-4DC2-9FC6-3332BEE51767}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6FBAED-274B-4DC2-9FC6-3332BEE51767}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D2E6E98B-D866-4016-B037-9946ED9C692A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E6E98B-D866-4016-B037-9946ED9C692A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E6E98B-D866-4016-B037-9946ED9C692A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E6E98B-D866-4016-B037-9946ED9C692A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8703800D-CB40-43BD-8A3C-0B39E17BF916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8703800D-CB40-43BD-8A3C-0B39E17BF916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8703800D-CB40-43BD-8A3C-0B39E17BF916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8703800D-CB40-43BD-8A3C-0B39E17BF916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{718CDF08-E262-4E46-B140-B1F2F42A3EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718CDF08-E262-4E46-B140-B1F2F42A3EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718CDF08-E262-4E46-B140-B1F2F42A3EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718CDF08-E262-4E46-B140-B1F2F42A3EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFD9730-DAF4-4727-9B0D-3A8289E8D380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFD9730-DAF4-4727-9B0D-3A8289E8D380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFD9730-DAF4-4727-9B0D-3A8289E8D380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFD9730-DAF4-4727-9B0D-3A8289E8D380}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

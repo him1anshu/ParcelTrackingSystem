@@ -1,0 +1,260 @@
+﻿
+body {
+    margin:0;
+    padding:0;
+    font-family:Arial,Verdana,sans-serif;
+    background-color:#f4f4f4;
+}
+
+header {
+    position:fixed;
+    z-index:1;
+}
+
+nav {
+    opacity:.9;
+    background-color:aqua;
+    /*opacity:.9;
+    background-color:white;*/
+}
+
+nav h1{
+    margin:0;
+    padding:0;
+}
+
+nav .navContent a {
+    color:#0f04a8;
+    
+}
+
+nav .navContent a:hover {
+    color:#17c00c;
+    border-bottom:2px solid #17c00c;
+ }
+
+nav .navContent a:active {
+    color:antiquewhite;
+}
+
+.headBrand {
+    margin:0;
+    padding:0;
+    margin-right:30%;
+}
+
+
+#brandOne { 
+    color:black;
+}
+
+#brandTwo { 
+    color:blue;
+}
+
+#brandThree { 
+    color:red;
+}
+
+.headTogglerIcon {
+    color:steelblue;
+}
+
+img {
+    opacity:.9;
+}
+
+#feedBack {
+    margin:5% 10%;
+}
+
+#feedbackForm {
+    
+    font-weight:bold;
+    margin:5% 10%;
+}
+
+footer {
+    margin:0 auto;
+    padding:0;
+    /*background-color:mediumaquamarine;*/
+    color:black;
+    font-weight:bold;
+}
+
+    footer p {
+        text-align:center;
+        /*margin:auto;
+        margin-left:40%;*/
+        padding:10px 10px;
+    }
+
+.copyFoot {
+    margin:0 5px;
+}
+
+#activePage {
+    color:orange;
+}
+
+#center {
+    
+    margin:150px 20% 50px 20%;
+    padding:0 10%;
+}
+
+/*#addCenter {
+     margin:5% 5%;
+}*/
+
+.addCenter {
+     margin:5% 5%;
+}
+
+#signInFoot {
+    margin-top:220px;
+}
+
+.addHead {
+    margin:0 20% 5% 20%;
+    padding:0 5%;
+    border:2px solid #3b5998;
+    
+}
+  .addHead h1 {
+    text-align:center;
+    background-color:#3b5998;
+    color:white;
+    /*background-color:white;
+    text-align:left;
+    width:70%;*/
+   /*padding-left:5%;*/
+   }
+
+.trckSec {
+    margin-top:10%;
+}
+
+
+
+
+/*.addHeadTrck {
+    margin:15% 20% 10% 20%;
+    border:15px solid green;
+}
+
+.addHeadTrck h1 {
+    text-align:center;
+   background-color:green;
+    color:white;
+   padding-left:5%;
+   }*/
+
+/*.panelFoot {
+    margin-top:500px;
+}*/
+
+.trckBtnCnt {
+    text-align:center;
+    margin-top:50px;
+}
+
+
+/*#btnSubmitTrck {
+    
+    font-size:25px;
+    border-radius:50%;
+}*/
+
+.btnSubmitTrckC {
+    
+    font-size:25px;
+    border-radius:50%;
+}
+
+
+
+/*@media (max-width:1450px) {
+     footer p {
+        margin-left:35%;
+       
+    }
+}*/
+
+@media (max-width:1350px) {
+    .headBrand {
+        margin-right: 20%;
+    }
+}
+
+@media (max-width:1200px) {
+    .headBrand {
+       margin-right:10%;
+    }
+    /*footer p {
+        margin-left:30%;
+       
+    }*/
+}
+
+@media (max-width:1050px) {
+    .headBrand {
+       margin-right:2%;
+    }
+    /*footer p {
+        margin-left:25%;
+       
+    }*/
+}
+
+/*@media (max-width:850px) {
+   
+    footer p {
+        margin-left:20%;
+       
+    }
+}*/
+
+/*@media (max-width:650px) {
+   
+    footer p {
+        margin-left:15%;
+       
+    }
+}*/
+
+
+/*@media (max-width:550px) {
+   
+    footer p {
+        font-size:12px;
+        margin-left:15%;
+       }
+}*/
+
+@media (max-width:430px) {
+    .headBrand {
+       margin-right:0;
+    }
+
+    .brandIcon { 
+   font-size:26px;
+}
+
+    #brandOne { 
+   font-size:26px;
+}
+
+#brandTwo { 
+   font-size:26px;
+}
+
+#brandThree { 
+  font-size:26px;
+}
+
+.headTogglerIcon {
+    font-size:26px;
+}
+
+}

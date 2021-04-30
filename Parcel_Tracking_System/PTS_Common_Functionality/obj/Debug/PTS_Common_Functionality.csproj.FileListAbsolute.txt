@@ -1,0 +1,10 @@
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Common_Functionality\bin\Debug\PTS_Common_Functionality.dll
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Common_Functionality\bin\Debug\PTS_Common_Functionality.pdb
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Common_Functionality\obj\Debug\PTS_Common_Functionality.dll
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Common_Functionality\obj\Debug\PTS_Common_Functionality.pdb
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Common_Functionality\obj\Debug\PTS_Common_Functionality.csprojResolveAssemblyReference.cache
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Common_Functionality\bin\Debug\PTS_Common_Functionality.dll
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Common_Functionality\bin\Debug\PTS_Common_Functionality.pdb
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Common_Functionality\obj\Debug\PTS_Common_Functionality.csprojAssemblyReference.cache
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Common_Functionality\obj\Debug\PTS_Common_Functionality.dll
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Common_Functionality\obj\Debug\PTS_Common_Functionality.pdb

@@ -1,0 +1,10 @@
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Business_Entity\bin\Debug\PTS_Business_Entity.dll
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Business_Entity\bin\Debug\PTS_Business_Entity.pdb
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Business_Entity\obj\Debug\PTS_Business_Entity.dll
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Business_Entity\obj\Debug\PTS_Business_Entity.pdb
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Business_Entity\obj\Debug\PTS_Business_Entity.csprojResolveAssemblyReference.cache
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Business_Entity\bin\Debug\PTS_Business_Entity.dll
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Business_Entity\bin\Debug\PTS_Business_Entity.pdb
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Business_Entity\obj\Debug\PTS_Business_Entity.csprojAssemblyReference.cache
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Business_Entity\obj\Debug\PTS_Business_Entity.dll
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Business_Entity\obj\Debug\PTS_Business_Entity.pdb

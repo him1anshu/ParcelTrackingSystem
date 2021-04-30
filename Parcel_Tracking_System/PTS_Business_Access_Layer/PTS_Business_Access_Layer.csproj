@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8703800D-CB40-43BD-8A3C-0B39E17BF916}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PTS_Business_Access_Layer</RootNamespace>
+    <AssemblyName>PTS_Business_Access_Layer</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addBranchBAL.cs" />
+    <Compile Include="addConsignmentBAL.cs" />
+    <Compile Include="addDeliveryBAL.cs" />
+    <Compile Include="addDispatchBAL.cs" />
+    <Compile Include="addDispEmpBAL.cs" />
+    <Compile Include="addFeedbackBAL.cs" />
+    <Compile Include="addReceiverBAL.cs" />
+    <Compile Include="addRecEmpBAL.cs" />
+    <Compile Include="addServicesBAL.cs" />
+    <Compile Include="calculateCostBAL.cs" />
+    <Compile Include="consDelStatusBAL.cs" />
+    <Compile Include="consDisStatusBAL.cs" />
+    <Compile Include="consRecStatusBAL.cs" />
+    <Compile Include="empEditDelBAL.cs" />
+    <Compile Include="empEditDeliveryBAL.cs" />
+    <Compile Include="employeeRegistrationBAL.cs" />
+    <Compile Include="locationFinderBAL.cs" />
+    <Compile Include="managerRegistrationBAL.cs" />
+    <Compile Include="mngEditConsBAL.cs" />
+    <Compile Include="recMailDisBAL.cs" />
+    <Compile Include="trackingBAL.cs" />
+    <Compile Include="userLoginBAL.cs" />
+    <Compile Include="userRegistrationBAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="viewBrnAdminBAL.cs" />
+    <Compile Include="viewConsAdminBAL.cs" />
+    <Compile Include="viewConsignmentUserBAL.cs" />
+    <Compile Include="viewConsMngBAL.cs" />
+    <Compile Include="viewDelEmpBAL.cs" />
+    <Compile Include="viewDisAdminBAL.cs" />
+    <Compile Include="viewDisMngEmpBAL.cs" />
+    <Compile Include="viewEmpAdminBAL.cs" />
+    <Compile Include="viewFeedAdminBAL.cs" />
+    <Compile Include="viewRecAdminBAL.cs" />
+    <Compile Include="viewRecMngEmpBAL.cs" />
+    <Compile Include="viewSrvAdminBAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PTS_Business_Entity\PTS_Business_Entity.csproj">
+      <Project>{d2e6e98b-d866-4016-b037-9946ed9c692a}</Project>
+      <Name>PTS_Business_Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PTS_Data_Access_Layer\PTS_Data_Access_Layer.csproj">
+      <Project>{718cdf08-e262-4e46-b140-b1f2f42a3efd}</Project>
+      <Name>PTS_Data_Access_Layer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,15 @@
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Data_Access_Layer\bin\Debug\PTS_Data_Access_Layer.dll
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Data_Access_Layer\bin\Debug\PTS_Data_Access_Layer.pdb
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Data_Access_Layer\bin\Debug\PTS_Business_Entity.dll
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Data_Access_Layer\bin\Debug\PTS_Business_Entity.pdb
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Data_Access_Layer\obj\Debug\PTS_Data_Access_Layer.csprojResolveAssemblyReference.cache
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Data_Access_Layer\obj\Debug\PTS_Data_Access_Layer.dll
+C:\Users\ak700\Documents\Visual Studio 2012\Projects\Parcel_Tracking_System\PTS_Data_Access_Layer\obj\Debug\PTS_Data_Access_Layer.pdb
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Data_Access_Layer\bin\Debug\PTS_Data_Access_Layer.dll
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Data_Access_Layer\bin\Debug\PTS_Data_Access_Layer.pdb
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Data_Access_Layer\bin\Debug\PTS_Business_Entity.dll
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Data_Access_Layer\bin\Debug\PTS_Business_Entity.pdb
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Data_Access_Layer\obj\Debug\PTS_Data_Access_Layer.csprojAssemblyReference.cache
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Data_Access_Layer\obj\Debug\PTS_Data_Access_Layer.csproj.CopyComplete
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Data_Access_Layer\obj\Debug\PTS_Data_Access_Layer.dll
+C:\Users\himan\Desktop\Parcel_Tracking_System\PTS_Data_Access_Layer\obj\Debug\PTS_Data_Access_Layer.pdb

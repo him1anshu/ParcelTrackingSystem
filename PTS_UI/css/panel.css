@@ -1,0 +1,81 @@
+﻿
+  body{
+  font-family:"Arial", Serif;
+  background-color:#f4f4f4;
+  overflow-x:hidden;
+}
+
+.admpNavbar{
+  background-color:#3b5998;
+  overflow:hidden;
+  height:63px;
+}
+
+.admpNavbar a{
+  float:left;
+  display:block;
+  color:#f2f2f2;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:17px;
+}
+
+.admpNavbarNav a {
+    float:right;
+}
+
+.admpNavbar ul{
+  margin:8px 0 0 0;
+  list-style:none;
+}
+
+.admpNavbar a:hover{
+  color:#1ee7f5;
+}
+
+.admpSideNav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#3b5998;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.admpSideNav a{
+  margin:0;
+  padding:0 10px 10px 10px;
+  text-decoration:none;
+  font-size:20px;
+  color:#fff;
+  display:block;
+  transition:0.3s;
+}
+
+
+.dashIcon {
+    padding-right:10px;
+}
+
+.admpSideNav a:hover{
+  color:#1ee7f5;
+}
+
+.admpSideNav .btnClose{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+}
+
+#admpMain{
+  transition:margin-left 0.5s;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+}
